@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppTheme_Light" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlHighlight">@color/colorControlHighlight_light</item>
+        <item name="colorPrimary">@color/colorPrimary_light</item>
+        <item name="colorAccent">@color/colorAccent_light</item>
+
+        <item name="android:statusBarColor">@color/statusBarColor_light</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor_light</item>
+        <item name="android:windowBackground">@color/windowBackground_light</item>
+
+        <item name="android:textColorHighlight">@color/textColorHighLight_light</item>
+        <item name="actionBarTheme">@style/MyTheme.ActionBarStyle_Light</item>
+
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="android:colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+
+<item name="actionBarTheme">@style/MyTheme.ActionBarStyle</item>
+    </style>
+
+
+
+
+</resources>

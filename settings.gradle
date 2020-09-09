@@ -1,0 +1,6 @@
+rootProject.name = "midedit"
+include ':app',":appcompat",':xlgame',':filelistview',':grantor'
+project(':appcompat').projectDir = new File(settingsDir, '../CAPP/appcompat') // settingsDir是指settings.gradle文件目录
+project(':xlgame').projectDir = new File(settingsDir, '../xlgame') // settingsDir是指settings.gradle文件目录
+project(':filelistview').projectDir = new File(settingsDir, '../FileSelectView/filelistview') // settingsDir是指settings.gradle文件目录
+project(':grantor').projectDir = new File(settingsDir, '../CAPP/grantor') // settingsDir是指settings.gradle文件目录

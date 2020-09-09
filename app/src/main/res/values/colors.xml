@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#ff75c0f0</color>
+    <color name="colorPrimary">#FF62a0f4</color>
+    <color name="colorButtonNormal">#FFA0A0A0</color>
+    <color name="windowBackground">#ff404040</color>
+    <color name="navigationBarColor">#ff202020</color>
+    <color name="statusBarColor">#FF202020</color>
+    <color name="textColorHighLight">#FF202020</color>
+    <color name="textColorPrimary">#fff0f0f0</color>
+    <color name="textColor">#fff0f0f0</color>
+
+    <color name="colorControlHighlight">#FFFFFFFF</color>
+
+    <color name="colorAccent_light">#ff75c0f0</color>
+    <color name="colorPrimary_light">#FF62a0f4</color>
+    <color name="textColorPrimary_light">#ffffffff</color>
+    <color name="textColorHighLight_light">#FF202020</color>
+    <color name="windowBackground_light">#FFF4F4F4</color>
+    <color name="navigationBarColor_light">#FF62a0f4</color>
+    <color name="statusBarColor_light">#FF62a0f4</color>
+    <color name="textColor_Light">#ff202020</color>
+    <color name="textColorPrimary_Light">#ff202020</color>
+    <color name="colorControlHighlight_light">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingTop="16dp"
+	android:paddingLeft="16dp"
+	android:paddingRight="16dp"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="升调"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="1"
+			android:layout_width="match_parent"
+			android:layout_weight="1.1"
+			android:visibility="invisible"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="1"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/mvalue2"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="2"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/mvalue4"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="4"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:visibility="invisible"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="4"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/mvalue7"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="5"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/mvalue9"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="6"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/mvalue11"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:layout_weight="1.1"
+			android:visibility="invisible"
+			android:text="0"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="音键"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="1"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/mvalue1"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="2"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/mvalue3"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="3"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/mvalue5"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="4"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/mvalue6"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="5"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/mvalue8"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="6"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/mvalue10"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="7"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/mvalue12"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="音阶"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="1"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/jvalue1"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="2"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/jvalue2"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="3"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/jvalue3"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="4"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/jvalue4"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="5"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/jvalue5"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="6"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/jvalue6"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="7"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/jvalue7"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="保存"
+			android:layout_width="wrap_content"
+			android:id="@+id/btn_save"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="试听"
+			android:layout_width="wrap_content"
+			android:id="@+id/btn_start"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="设置乐器"
+			android:layout_width="wrap_content"
+			android:id="@+id/btn_setNotes"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="退出"
+			android:layout_width="wrap_content"
+			android:id="@+id/btn_exit"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

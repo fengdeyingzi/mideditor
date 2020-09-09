@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- Colored bordered ink button -->
+	<style name="Button" parent="android:Widget" >
+   </style>
+	<style name="Button.Colored">
+        <item name="android:background">@drawable/abc_btn_colored_material</item>
+		</style>
+
+    <style name="AppTheme_Light" parent="Theme.AppCompat.Light.DarkActionBar">
+
+		<item name="colorPrimary">@color/colorPrimary_light</item>
+		<item name="colorPrimaryDark">@color/colorPrimary_light</item>
+		<item name="colorAccent">@color/colorAccent_light</item>
+		<item name="android:textColorPrimary">@color/textColorPrimary_light</item>
+		<item name="actionBarStyle">@style/MyTheme.ActionBarStyle</item>
+    </style>
+		
+		<style name="AppTheme" parent="Theme.AppCompat">
+			<item name="colorPrimary">@color/colorPrimary</item>
+			<item name="colorPrimaryDark">@color/colorPrimary</item>
+			<item name="colorAccent">@color/colorAccent</item>
+			<item name="actionBarStyle">@style/MyTheme.ActionBarStyle</item>
+
+    </style>
+
+	<style name="MyTheme.ActionBarStyle_Light" parent="@style/Base.Widget.AppCompat.ActionBar.Solid">
+		<item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle_Light</item>
+		<item name="android:textColorPrimary">@color/textColorPrimary_Light</item>
+		<item name="android:textColor">@color/textColor_Light</item>
+	</style>
+
+	<style name="MyTheme.ActionBarStyle" parent="@style/Base.Widget.AppCompat.ActionBar.Solid">
+		<item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+		<item name="android:textColorPrimary">@color/textColorPrimary</item>
+		<item name="android:textColor">@color/textColor</item>
+	</style>
+
+
+	<style name="MyTheme.ActionBar.TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+		<item name="android:textColor">@color/textColorPrimary</item>
+	</style>
+
+	<style name="MyTheme.ActionBar.TitleTextStyle_Light" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+		<item name="android:textColor">@color/textColorPrimary_Light</item>
+	</style>
+		
+</resources>

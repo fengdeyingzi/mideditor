@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="hello" >风的影子 作品</string>
+    
+	<string name="app_about">程序名：TexturePacker\n作者：风的影子\n游戏开发QQ群：496717720</string>
+	<string name="app_help">本软件类似于libgdx引擎自带的TexturePacker工具，可以将图片打包为atlas文件和png图片\n实现了png序列列表功能，支持打包序列图片。\ninputDir ：要打包的图片的目录 \noutputDir: 打包完成后，图片的输出目录\npackFileName:输出的文件名 \n
+	</string>
+	
+	<string name="input_error">input输入错误：不是文件夹</string>
+	
+	
+	<string name="accept">确定</string>
+	<string name="refused">取消</string>
+</resources>
